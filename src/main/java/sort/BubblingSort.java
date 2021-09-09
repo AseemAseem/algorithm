@@ -1,8 +1,8 @@
 package sort;
 
-public class BubbingSort extends Sort {
+public class BubblingSort extends Sort {
 
-    public BubbingSort(int[] arr) {
+    public BubblingSort(int[] arr) {
         super(arr);
     }
 
