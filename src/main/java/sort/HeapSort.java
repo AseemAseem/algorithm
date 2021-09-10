@@ -28,6 +28,7 @@ public class HeapSort extends Sort {
         }
     }
 
+    // 从当前节点往下调整
     private void adjust(int[] arr, int begin, int end) {
         if (begin >= end) {
             return;
