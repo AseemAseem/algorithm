@@ -1,8 +1,10 @@
 package sort;
 
 /**
- * 最后一个父节点：length/2 - 1
- * 左子节点：2*index + 1
+ * 公式：最后一个父节点：length/2 - 1 左子节点：2*index + 1
+ * 构造大顶堆时每次调整结束的位置都是length-1的位置
+ * 调整时结束位置是范围内最后一个父节点的位置
+ * 一定要注意，调整时右子节点不一定会存在
  */
 public class HeapSort extends Sort {
     public HeapSort(int[] arr) {
