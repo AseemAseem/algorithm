@@ -1,5 +1,11 @@
 package sort;
 
+/**
+ * 左右指针不断互相换数据，直至都处于同一个位置
+ * 一定是右指针先找数据，否则若左指针先找，极限情况下，第一次查找到的极值就是位于右指针位置，此时再进行mid值的交换会导致排序失败
+ * 本地都交换完后，一定要把参考值换到当前指针结束的位置，这里就是中间值要在的位置了。
+ *
+ */
 public class QuickSort extends Sort {
     public QuickSort(int[] arr) {
         super(arr);

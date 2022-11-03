@@ -1,5 +1,9 @@
 package sort;
 
+/**
+ * 第一个遍历，存储排好序的值
+ * 第二个遍历，执行冒泡动作选出极值
+ */
 public class BubblingSort extends Sort {
 
     public BubblingSort(int[] arr) {

@@ -1,5 +1,10 @@
 package sort;
 
+
+/**
+ * 第一个遍历，存储排好序的值
+ * 第二个遍历，选出极值
+ */
 public class SelectorSort extends Sort {
     public SelectorSort(int[] arr) {
         super(arr);
